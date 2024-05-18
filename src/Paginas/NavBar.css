@@ -1,0 +1,32 @@
+.navbar1{
+  color: white;
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 10px;
+        background-color: black;
+        height: 50px;
+      
+}
+.navbar1 ul li {
+    margin-left: 20px;
+  }
+
+  .navbar1 .logo {
+    margin-right: 1050px;
+  
+  }
+
+
+  .navbar1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  .home{
+    color: black;
+  }
+  

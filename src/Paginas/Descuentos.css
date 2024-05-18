@@ -1,0 +1,75 @@
+.ConProducto1{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;           
+    width: 100%;
+    box-sizing: border-box;
+}
+.ConAnillo1,.ConCadena1,.ConArete1{
+    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 150px;
+    padding: 20px;
+    margin: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 300px;
+    
+    
+
+}
+
+.ObAnillo1, .ObCadena1, .ObArete1 {
+    color: white;
+    font-weight:900;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Ajuste de altura automático */
+    padding: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5000px;
+    margin-top: 400px;
+    background-color: black;
+    
+}
+
+.T_descuentos{
+    color: white;
+    font-weight:900;
+    background-color: black;
+}
+
+
+
+.ConAnillo1{
+    background-image: url('../Imagenes/j5.jpg');
+    border-radius: 10px;
+}
+
+
+.ConCadena1{
+    background-image: url('../Imagenes/j6.jpg');
+
+}
+
+.ConArete1{
+    background-image: url('../Imagenes/j7.jpg');
+
+}
+
+.ConAnillo1,
+.ConCadena1,
+.ConReloj1 {
+    /* ... otros estilos ... */
+    border: 2px solid #000; /* Ancho y color del borde */
+    border-radius: 10px; /* Radio de las esquinas del borde */
+}
