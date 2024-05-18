@@ -29,10 +29,14 @@ const Login = () => {
     };
     return (
         <>
+        
             <div className="Continer">
             <div style={{ color: "red" }}>{mensaje}</div>
+            
             <form onSubmit={handleSubmitEvent}>
+                
                 <div className="form_control">
+                <h1 className="Iniciar">Iniciar sesion</h1>
                     <label htmlFor="user-name">Usuario:</label>
                     <input
                         type="text"
